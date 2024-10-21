@@ -1,11 +1,11 @@
 {
-    "name": "Kapumota",
+    "name": "Junior-75",
     "dockerFile": "Dockerfile",
     "context": "..",
-    "remoteUser": "kapumota",
+    "remoteUser": "Junior-75",
     "workspaceFolder": "/project",
     "workspaceMount": "source=${localWorkspaceFolder},target=/project,type=bind,consistency=delegated",
-    "runArgs": ["-h","kapumota"],
+    "runArgs": ["-h","Junior-75"],
     "remoteEnv": {
         "FLASK_DEBUG": "true",
         "FLASK_APP": "counter:app",
